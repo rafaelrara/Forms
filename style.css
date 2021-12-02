@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    background-color: antiquewhite;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: aquamarine;
+    min-width: 200px;
+    min-height: 200px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1{
+    margin-bottom: 20px;
+    color: rgb(121, 121, 231);
+}
+
+.forms_main{
+    display: flex;
+    max-width: 900px;
+}
+
+fieldset{
+    border-radius: 10px;
+    margin: 0px 15px 20px 0px;
+    flex: 1;
+}
+
+ul{
+    list-style-type: none;
+    padding: 20px;
+}
+
+li{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.radio_sex{
+    display: flex;
+    flex-direction: column;
+}
+
+li p{
+    margin-bottom: 15px;
+}
+
+.forms_button{
+    display: flex;
+    justify-content: center;
+}
+
+.forms_button input{
+    padding: 10px;
+    width: 150px;
+    background-image: linear-gradient(to top, rgb(67, 67, 255), white 98%);
+    border: none;
+    color: rgb(20, 54, 54);
+    font-weight: 700;
+}
+
+.forms_button input:hover{
+    background-image: linear-gradient(to bottom, rgb(67, 67, 255), white 98%);
+}
+
+input{
+    width: 120px;
+}

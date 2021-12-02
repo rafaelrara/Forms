@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+        
+        <div class="container">
+            <h1>Cadastro de notas</h1>
+            <div class="forms_main">
+            
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <form action="forms.html" method="get">
+                        <ul>
+                            <li>Nome Completo: <input type="text" autofocus></li>
+                            <li>Endereço: <input type="text"></li>
+                            <li>Telefone: <input type="tel" placeholder="(__) _ ____-____"></li>
+            
+                            <li>E-mail: <input type="email" placeholder="exemplo@exemplo.com.br" pattern="exemplo@exemplo.com.br"></li>
+                            <li class="radio_sex"><p>Sexo:</p> <input type="radio" name="sex">Masculino</li>
+                            <li class="radio_sex"> <input type="radio" name="sex">Feminino</li>
+                        </ul>
+                    </form>
+                </fieldset>
+                <fieldset>
+                    <legend>Notas</legend>
+                    <form action="forms.html" method="get">
+                        <ul class="forms_math">
+                            <li>Matemática: <input type="number"></li>
+                            <li>Português: <input type="number"></li>
+                            <li>História: <input type="number"></li>
+                            <li>Geografia: <input type="number"></li>
+                            <li>Ciências: <input type="number"></li>
+                            
+                        </ul>
+                    </form>
+                </fieldset>
+            </div>
+            <div class="forms_button"><input type="submit" value="Cadastrar"></div>
+        </div>
+    </main>
+    
+</body>
+</html>
